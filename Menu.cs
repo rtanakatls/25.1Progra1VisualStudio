@@ -22,7 +22,8 @@ namespace Progra1251
             while (continueFlag)
             {
                 Console.WriteLine("1. Agregar persona");
-                Console.WriteLine("2. Mostrar todas las personas");
+                Console.WriteLine("2. Agregar alumno");
+                Console.WriteLine("3. Mostrar todas las personas");
                 Console.WriteLine("0. Salir");
 
                 string option= Console.ReadLine();
@@ -32,6 +33,9 @@ namespace Progra1251
                         AddPerson();
                         break;
                     case "2":
+                        AddStudent();
+                        break;
+                    case "3":
                         ShowPeople();
                         break;
                     case "0":
@@ -50,11 +54,16 @@ namespace Progra1251
             persons.Add(GetPerson());
         }
 
+        private void AddStudent()
+        {
+            persons.Add(GetStudent());
+        }
+
         private void ShowPeople()
         {
-            foreach(Person person in persons)
+            foreach (Person person in persons)
             {
-                Console.WriteLine($"Hay una persona con nombre {person.Name} y edad {person.Age}");
+                Console.WriteLine(person.ShowInfo());
             }
         }
 
@@ -68,6 +77,28 @@ namespace Progra1251
 
             return person;
         }
+
+
+        private Student GetStudent()
+        {
+            Student student;
+
+            string name = GetName();
+            int age = GetAge();
+            string code = GetCode();
+            student = new Student(name, age, code);
+
+            return student;
+        }
+
+        private string GetCode()
+        {
+            string code;
+            Console.WriteLine("Introduce tu Código:");
+            code = Console.ReadLine();
+            return code;
+        }
+
 
         private string GetName()
         {

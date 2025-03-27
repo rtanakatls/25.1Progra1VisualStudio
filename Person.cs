@@ -8,8 +8,8 @@ namespace Progra1251
 {
     internal class Person
     {
-        private string name;
-        private int age;
+        protected string name;
+        protected int age;
 
         public string Name { get { return name; } }
         public int Age { get { return age; } }
@@ -18,6 +18,11 @@ namespace Progra1251
         {
             this.name = name;
             this.age = age;
+        }
+
+        public virtual string ShowInfo()
+        {
+            return $"Hay una persona con nombre {name} y edad {age}";
         }
 
     }
