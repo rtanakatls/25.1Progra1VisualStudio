@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Progra1251.Week2.Example2
 {
-    internal class RangedWeapon : Weapon
+    internal abstract class RangedWeapon : Weapon
     {
         protected int distance;
         protected Ammo ammo;

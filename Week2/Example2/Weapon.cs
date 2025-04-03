@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Progra1251.Week2.Example2
 {
-    internal class Weapon
+    internal abstract class Weapon
     {
         protected string name;
         protected int damage;
@@ -17,9 +17,6 @@ namespace Progra1251.Week2.Example2
             this.damage = damage;
         }
 
-        public virtual int GetDamage()
-        {
-            return damage;
-        }
+        public abstract int GetDamage();
     }
 }

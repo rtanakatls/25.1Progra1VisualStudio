@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace Progra1251
 {
-    internal class Menu
+    internal abstract class Menu
     {
 
-        public virtual void Execute()
-        {
-
-        }
+        public abstract void Execute();
     }
 }

@@ -8,5 +8,9 @@ namespace Progra1251.Week2.Example2
 {
     internal class Week2Example2Menu : Menu
     {
+        public override void Execute()
+        {
+            
+        }
     }
 }
