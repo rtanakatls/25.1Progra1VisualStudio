@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Progra1251.Week2.Example2.Ammo">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Week2\Example2\Ammo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progra1251.Week2.Example2.Arrow">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Week2\Example2\Arrow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progra1251.Week2.Example2.Bow">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Week2\Example2\Bow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progra1251.Week2.Example2.Enemy">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Week2\Example2\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progra1251.Week2.Example2.EnemyArcher">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Week2\Example2\EnemyArcher.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Progra1251.Week2.Example2.RangedWeapon">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Week2\Example2\RangedWeapon.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ammo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Progra1251.Week2.Example2.Weapon">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Week2\Example2\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
