@@ -50,9 +50,29 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Week1\Student.cs" />
     <Compile Include="Week2\Example1\Week2Example1Menu.cs" />
+    <Compile Include="Week2\Example2\Ammo.cs" />
+    <Compile Include="Week2\Example2\Arrow.cs" />
+    <Compile Include="Week2\Example2\Bow.cs" />
+    <Compile Include="Week2\Example2\Enemy.cs" />
+    <Compile Include="Week2\Example2\EnemyArcher.cs" />
+    <Compile Include="Week2\Example2\RangedWeapon.cs" />
+    <Compile Include="Week2\Example2\Weapon.cs" />
+    <Compile Include="Week2\Example2\Week2Example2Menu.cs" />
+    <Compile Include="Week3\Example1\ICalculateArea.cs" />
+    <Compile Include="Week3\Example1\Rectangle.cs" />
+    <Compile Include="Week3\Example1\Shape.cs" />
+    <Compile Include="Week3\Example1\Triangle.cs" />
+    <Compile Include="Week3\Example1\Week3Example1Menu.cs" />
+    <Compile Include="Week3\Example2\IPickable.cs" />
+    <Compile Include="Week3\Example2\Object.cs" />
+    <Compile Include="Week3\Example2\Player.cs" />
+    <Compile Include="Week3\Example2\Potion.cs" />
+    <Compile Include="Week3\Example2\Rock.cs" />
+    <Compile Include="Week3\Example2\Week3Example2Menu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Week2\Example2\Week2Example2ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
