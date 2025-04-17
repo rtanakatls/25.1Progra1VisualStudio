@@ -3,6 +3,7 @@ using Progra1251.Week2.Example1;
 using Progra1251.Week2.Example2;
 using Progra1251.Week3;
 using Progra1251.Week3.Example2;
+using Progra1251.Week4;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace Progra1251
     {
         static void Main(string[] args)
         {
-            Menu menu = new Week3Example2Menu();
+            Menu menu = new Week4Menu();
             menu.Execute();
         }
     }
